@@ -320,11 +320,12 @@ span.con-txt {
   width: 50%;
   text-align: center;
   position: relative;
+  max-width: 781px;
 }
 
 .modal-image {
   width: 100%;
-  height: 400px;
+  height: 483px;
   background-size: cover;
   background-position: center;
   border-radius: 0;
