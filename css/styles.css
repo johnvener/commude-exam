@@ -456,4 +456,11 @@ section#content-section h1 {
   .inner-container {
     padding: 0 10px;
   }
+  .hero-image-container {
+    background: url('../imgs/hero_bg-mobile.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
 }
