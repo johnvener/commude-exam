@@ -18,7 +18,7 @@ html {
   --text-color: #ffffff;
   --text-color-2: #B92013;
   --text-color-3: #222222;
-  --text-color-4: #7E7E7E;
+  --text-color-4: #6E6E6E; /* I adjusted the color to pass the PSI accessibility issue (#7E7E7E)*/
   --bg-color-1: #262525;
   --bg-color-2: #222222;
   --bg-color-3: #5B0D07;
@@ -67,18 +67,6 @@ span.hero-text {
   margin-left: 4em;
 }
 /* Hero Image Background */
-.hero-image-container {
-  background-image: url('../imgs/hero_bg.webp');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  flex-basis: 70%;
-  height: 810px;
-  max-width: 880px;
-  min-height: 810px;
-  width: 100%;
-
-}
 
 /*
 *  News Section 
@@ -124,7 +112,6 @@ span.scroll-txt:after {
   flex-basis: 100%;
   row-gap: 10px;
   column-gap: 30px;
-  color: var(--text-color-3);
   align-items: center;
   background: var(--text-color);
 }
@@ -136,12 +123,13 @@ span#news-title {
   padding-left: 1.5em;
 }
 .date-txt {
-  color: var(--text-color-4);
+  color: var(--text-color-3);
   margin-right: 2em;
   font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
 }
 .news-txt {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color-3);
 }
 .news-container {
   padding: 1em;
