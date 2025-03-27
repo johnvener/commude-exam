@@ -489,7 +489,11 @@ section#content-section h1 {
     }
 
   .modal-content {
-  width: fit-content;
+  width: 300px;
+  }
+
+  #close {
+    top: 10px;
   }
 
   
@@ -517,3 +521,4 @@ section#content-section h1 {
   }
 
 }
+
