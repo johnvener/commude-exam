@@ -508,6 +508,17 @@ section#content-section h1 {
     padding: 0 10px;
   }
 
+   /* Modal Section */
+  .modal-image {
+    height: 237px;
+    background-size: contain;
+    min-width: 300px;
+    }
+
+  .modal-content {
+  width: fit-content;
+  }
+
 
 
 }
