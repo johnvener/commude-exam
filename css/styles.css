@@ -372,6 +372,9 @@ p#modal-text, h2#modal-title {
     max-width: 350px;
     min-height: 253px;
   }
+  .modal-content {
+  width: 80%;
+  }
 }
 
   /* Tablet View */
@@ -478,13 +481,18 @@ section#content-section h1 {
   margin-top: 0;
 }
 
-
-
 /* Modal Section */
-.modal-image {
-  height: 237px;
-  background-size: contain;
-}
+  .modal-image {
+    height: 237px;
+    background-size: contain;
+    min-width: 300px;
+    }
+
+  .modal-content {
+  width: fit-content;
+  }
+
+  
 
 }
   /* Mobile View*/
@@ -507,18 +515,5 @@ section#content-section h1 {
   .inner-container {
     padding: 0 10px;
   }
-
-   /* Modal Section */
-  .modal-image {
-    height: 237px;
-    background-size: contain;
-    min-width: 300px;
-    }
-
-  .modal-content {
-  width: fit-content;
-  }
-
-
 
 }
