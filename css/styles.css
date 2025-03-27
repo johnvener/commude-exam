@@ -1,3 +1,30 @@
+/* Font Declaration (Local hosting) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+      url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('NotoSans-Regular.woff2') format('woff2'),
+      url('NotoSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('BebasNeue-Regular.woff2') format('woff2'),
+      url('BebasNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
   font-size: 16px;
@@ -25,7 +52,6 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
   }
@@ -325,23 +351,11 @@ p#modal-text, h2#modal-title {
 }
 
 
-
-
-
-
-  
-  h1, h2, h3, h4 {
-    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
-  }
-  p {
-    font-family: 'Noto Sans', sans-serif;
-  }
-  
-  strong {
-    font-family: 'Roboto', sans-serif;
-  }
-
-
+/* 
+*
+*Media Queries 
+*
+*/
 
 /* Small Desktop Screen Adjustments */
 @media screen and (max-width:1210px) {
