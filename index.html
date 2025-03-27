@@ -15,11 +15,16 @@
     <link rel="preload" as="image" href="imgs/hero_bg.webp" type="image/webp">
 
     <style>
-        #hero-section {
-            background-image: url('imgs/hero_bg.webp');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
+        .hero-image-container {
+            background-image: url('../imgs/hero_bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-basis: 70%;
+  height: 810px;
+  max-width: 880px;
+  min-height: 810px;
+  width: 100%;
         }
     </style>
 </head>
@@ -47,7 +52,7 @@
             <div class="mini-nav container">
                <div class="scroll-txt-container">
                     <span class="scroll-txt">
-                        <h4>Scroll</h4>
+                        <p>Scroll</p>
                     </span>
                </div>
                <div class="nav-txt-container">
