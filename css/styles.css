@@ -96,11 +96,11 @@ section#mini-nav-section {
 span.scroll-txt {
   position: relative;
   font-size: 18px;
-  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
 }
-span.scroll-txt {
+span.scroll-txt p{
   font-weight: 400;
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif !important;
 }
 span.scroll-txt:after {
   content: "";
